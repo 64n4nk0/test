@@ -16,6 +16,9 @@ body {
 .square {
     height: 50px;
     width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .red {
@@ -37,7 +40,7 @@ body {
     background: #C4C4C4;
     border-bottom: 1px solid #000;
     padding: 50px 0;
-    margin: 0 0 50px 0
+    margin: 0 0 50px 0;
 }
 
 .header__group {
@@ -71,7 +74,7 @@ body {
     border-bottom: 1px solid #000;
     border-top: 1px solid #000;
     padding: 50px 0;
-    margin: 0 0 50px 0
+    margin: 0 0 50px 0;
 }
 
 .second-lvl__group {
@@ -108,3 +111,44 @@ body {
 
 
 /* THIRD LVL GROUP */
+
+.third-lvl {
+    background: #C4C4C4;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    padding: 50px 0;
+    margin: 0 0 50px 0;
+}
+
+.third-lvl__group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.third-lvl__first-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.third-lvl__first-group div+div {
+    margin-left: 9px;
+}
+
+.third-lvl__second-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.third-lvl__second-group div+div {
+    margin-left: 9px;
+}
+
+.third-lvl__third-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.third-lvl__third-group div+div {
+    margin-left: 9px;
+}
