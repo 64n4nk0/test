@@ -178,7 +178,7 @@ body {
 .fouth-lvl__group {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .fouth-lvl__group div+div {
