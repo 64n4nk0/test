@@ -69,14 +69,42 @@ body {
 .second-lvl {
     background: #C4C4C4;
     border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
     padding: 50px 0;
     margin: 0 0 50px 0
 }
 
-.second-lvl__group {}
+.second-lvl__group {
+    display: flex;
+    justify-content: space-between;
+}
 
-.second-lvl__first-group {}
+.second-lvl__first-group {
+    display: flex;
+    flex-direction: row;
+}
 
-.second-lvl__second-group {}
+.second-lvl__first-group div+div {
+    margin-left: 9px;
+}
 
-.second-lvl__second-group {}
+.second-lvl__second-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-lvl__second-group div+div {
+    margin-left: 9px;
+}
+
+.second-lvl__third-group {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.second-lvl__third-group div+div {
+    margin-right: 9px;
+}
+
+
+/* THIRD LVL GROUP */
